@@ -11,7 +11,7 @@ def ninjas():
 @app.route('/dojo/new')
 def dojo():
     print "created a ninja"
-    name = request.form["name"]
-    power = request.form["power"]
+    # name = request.form["name"]
+    # power = request.form["power"]
     return render_template("dojos.html")
 app.run(debug=True)
